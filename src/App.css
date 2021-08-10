@@ -15,13 +15,18 @@
 .square {
   height: 40px;
   width: 40px;
-  background-color: grey;
+  background-color: rgb(17, 16, 16);
 }
 .board {
   text-align: center;
   margin: auto;
 }
-
+.X{
+  color: green
+}
+.O{
+  color: red
+}
 .board-row {
   display: flex;
   justify-content: center;
